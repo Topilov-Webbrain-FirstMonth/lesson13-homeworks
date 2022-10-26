@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* ----------------------------Media Queries---------------------------- */
+@media screen and (max-width: 767px) {
+    body {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+}
